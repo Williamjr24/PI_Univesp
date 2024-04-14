@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="js/login.js"> </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="topo">
+         <div class="logo"> <img src="logo4.png"> </div>
+          <div class="menu">
+           <nav>
+            <a href="#"> Home </a>
+            <a href="#"> Sobre </a>
+            <a href="#"> Contato </a>
+            <a href="login.html"> Login </a>
+           </nav>
+   
+   </div>
+   </div>
+       </header>
+
+    <div id="container-login">
+        <h1 id="h1-login">
+        Login
+        </h1>
+
+    <form id="login">
+    <label for="nomes">Nome</label>
+    <input type="text" name="nomes" id="nomes" placeholder="Digite seu nome" required>
+    <label for="senha">Senha</label>
+    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+    <a href="#" target="_blank" id="esqueceu">Esqueceu sua senha</a>
+
+    </form>
+
+    <button type="submit" onclick="logar()" value="Entrar" id="btn-login"> 
+    <span> </span>
+    <span> </span>
+    <span> </span>
+    <span> </span>
+    <a href="index.html">ENTRAR</a>
+    </button>
+
+    <div id="registro">
+      <p>Ainda nao é membro?</p>
+      <a href="#" target="_blank">Tornar-se membro</a>
+    </div>
+
+    </div>
+
+
+    </body>
+    </html>
